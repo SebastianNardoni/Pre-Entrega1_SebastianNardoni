@@ -1,10 +1,14 @@
-import Componente1 from "./components/Componente1";
+import { ItemListContainer } from "./components/ItemListContainer";
+import NavBar from "./components/NavBar";
+
 
 const App = () => {
+
   return (
-  <div>
-    <Componente1 />
-    </div>
+    <>
+      <NavBar/>
+      <ItemListContainer greeting= "Bienvenidos"/>
+    </>
   );
 };
 
